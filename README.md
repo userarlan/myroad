@@ -1,23 +1,12 @@
 # My Road
 
-Personal repository for my studies.
+Здесь собираю заметки по тому, что изучаю. Сейчас в основном разбираюсь с Linux и Bash.
 
-I use this repository to document what I learn and practice: notes, labs, scripts, configurations and experiments.
+## Linux
 
-## Current focus
+- [Навигация](linux/notes/navigation.md) - пути и переходы между папками.
+- [Файлы и директории](linux/notes/files.md) - создание, перемещение и переименование.
+- [Справка](linux/notes/help.md) - поиск в `man` и разделы руководства.
+- [Bash](linux/notes/bash.md) - переменные, prompt, `.bashrc`, `&&` и `|`.
 
-* Linux
-* Networking
-* Git
-* Bash
-
-## Repository structure
-
-```text
-linux/
-networking/
-git/
-bash/
-```
-
-More topics will be added as I progress.
+В [commands](linux/commands/) сохраняю короткие шпаргалки по командам, в том числе по [системе](linux/commands/system.md) и [сети](linux/commands/networking.md).

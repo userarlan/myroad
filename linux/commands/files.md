@@ -9,8 +9,11 @@
 | `mkdir -p PATH` | Создать вложенные директории       | `mkdir -p project/src/components` |
 | `touch FILE`    | Создать пустой файл                | `touch file.txt`                  |
 | `mv SRC DST`    | Переместить или переименовать      | `mv old.txt new.txt`              |
-| `cp SRC DST`    | Скопировать файл или директорию    | `cp file.txt backup.txt`          |
+| `cp SRC DST`    | Скопировать файл    | `cp file.txt backup.txt`          |
+| `cp -r SRC DST` | Скопировать директорию рекурсивно | `cp -r project backup` |
 | `rm FILE`       | Удалить файл                       | `rm file.txt`                     |
 | `rm -r DIR`     | Удалить директорию и её содержимое | `rm -r project`                   |
 | `rmdir DIR`     | Удалить пустую директорию          | `rmdir empty_dir`                 |
 | `tree`          | Показать структуру директорий      | `tree`                            |
+
+`touch` создаёт пустой файл, если его нет. Для существующего файла команда обновляет временные метки доступа и изменения.
